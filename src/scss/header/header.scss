@@ -1,0 +1,23 @@
+.header{
+	padding: 20px 0;
+
+	&_pos_fix{
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+	}
+
+	&__logo{
+		margin-right: 5%;
+		max-width: 7.09%;
+		width: 100%;
+		@media(max-width: 1200px){
+			max-width: 105px;
+		}
+	}
+
+	&__nav{
+		width: 100%;
+	}
+}
