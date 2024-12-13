@@ -4,11 +4,7 @@
 
 html,
 body {
-  background-color: #000000;
-  font-family: "Inter";
-  font-weight: 400;
   font-size: 16px;
-  color: #fff;
   height: 100%;
 }
 
@@ -40,4 +36,7 @@ a {
   padding-left: 16px;
   padding-right: 16px;
   width: 78.75%;
+  margin: 0 auto;
 }
+
+@import "nav/nav";
