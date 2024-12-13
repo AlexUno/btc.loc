@@ -1,0 +1,43 @@
+@import "./reset";
+@import "./bootstrap-grid.min";
+@import "./fonts";
+
+html,
+body {
+  background-color: #000000;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.sect {
+  display: block;
+  position: relative;
+  &_mb_35 {
+    margin-bottom: 35px;
+    @media (max-width: 992px) {
+      margin-bottom: 11px;
+    }
+  }
+}
+
+.container-main {
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 78.75%;
+}
